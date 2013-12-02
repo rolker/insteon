@@ -1,0 +1,16 @@
+{
+  "name": "Insteon Manager",
+  "description": "Manage Insteon network via EZServ",
+  "version": "0.0.1",
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": {"16": "insteon-16.png", "128": "insteon-128.png" },
+  "permissions": [
+    {"socket": [
+      "tcp-connect:*:*"
+    ]}
+  ]
+}

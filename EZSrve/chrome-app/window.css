@@ -1,0 +1,8 @@
+div#devices {
+	border: solid;
+}
+
+div#debug {
+	border: solid;
+	overflow: auto;
+}
